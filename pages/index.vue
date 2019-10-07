@@ -1,72 +1,52 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        IVY-NUXT
-      </h1>
-      <h2 class="subtitle">
-        My gnarly Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <Layout>
+    <div class="">
+      <fullWidth
+        link="location"
+        class="full-width"
+        title="Espace"
+        description="Loue l'espace pour ta prochaine activité!"
+        textcolor="black"
+        imgsrc="img/studio/photo-loue-espace.jpg"
+        logosrc="img/logo/lion.svg"
+      />
+      <div class="container-row">
+        <fullWidth
+          link="yoga"
+          class="demi-width"
+          title="Ivy Yoga"
+          description="Viens yogater avec le proprio dans divers flow."
+          sousdescription="En abonnement ou drop-in."
+          textcolor="#FCDA1E"
+          imgsrc="img/studio/photo-cours-dan.jpg"
+        />
+        <fullWidth
+          link="evenements"
+          class="demi-width"
+          title="Événements"
+          description="Vient à l'un de nos multiples ateliers, cours de yoga, etc."
+          sousdescription=""
+          textcolor="#FCDA1E"
+          imgsrc="img/studio/photo-cours-dan.jpg"
+        />
       </div>
     </div>
-  </div>
+  </Layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import fullWidth from '~/components/fullWidthBloc.vue'
 
 export default {
   components: {
-    Logo
+    fullWidth
+  },
+  metaInfo: {
+    title: 'Espace IVY'
   }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

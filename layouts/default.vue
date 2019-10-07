@@ -1,55 +1,116 @@
 <template>
   <div>
+    <header>
+      <menuIvy />
+    </header>
     <nuxt />
+    <footerIvy />
   </div>
 </template>
 
+<script>
+import menuIvy from '~/components/menu-ivy.vue'
+import footerIvy from '~/components/footer-ivy.vue'
+
+export default {
+  components: {
+    menuIvy,
+    footerIvy
+  }
+}
+</script>
+
 <style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+html, body {
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+    min-height: auto;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
+div {
+    width: auto;
+    min-height: 25px;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    margin: 0.1rem;
 }
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0.1rem;
 }
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+a {
+    text-decoration: none;
+    color: black;
 }
+a:hover {
+    color: #FCDA1E;
+}
+.full-width {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    height: auto;
+    max-height: 45vh;
+    overflow: hidden;
+    margin: 0 2rem 4rem 2rem;
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+}
+.demi-width {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    width: 40%;
+    height: auto;
+    max-height: 45vh;
+    overflow: hidden;
+    margin: 0 2rem 4rem 2rem;
+}
+.demi-width-descriptifs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 2rem 4rem 2rem;
+}
+.container {
+    width: 100%;
+}
+.container-column {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-title {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .demi-width {
+        width: auto;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
 }
 </style>
