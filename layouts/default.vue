@@ -58,7 +58,7 @@ a:hover {
     height: auto;
     max-height: 45vh;
     overflow: hidden;
-    margin: 0 2rem 4rem 2rem;
+    margin: 0 2rem 0.75rem 2rem;
 
 }
 .demi-width {
@@ -75,10 +75,21 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 100%;
+    width: auto;
     height: auto;
     overflow: hidden;
     margin: 0 2rem 4rem 2rem;
+}
+.full-width-photos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 0 2rem 4rem 2rem;
+
 }
 .container {
     width: 100%;
@@ -102,6 +113,16 @@ a:hover {
     margin: 0 0 1rem 0;
     text-align: center;
 }
+.image {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
+.text {
+    margin: 0 2rem 4rem 2rem;
+    width: 80vw;
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
     .demi-width {
         width: auto;
@@ -111,6 +132,9 @@ a:hover {
     }
     h3 {
         font-size: 1rem;
+    }
+    .demi-width-descriptifs {
+        width: auto;
     }
 }
 </style>

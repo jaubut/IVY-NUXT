@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-      { src: 'https://kit.fontawesome.com/e007d1f7cc.js' }
+      { src: 'https://kit.fontawesome.com/e007d1f7cc.js' },
+      { src: 'https://widgets.healcode.com/javascripts/healcode.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

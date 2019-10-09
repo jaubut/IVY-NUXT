@@ -2,23 +2,23 @@
   <Layout>
     <div class="">
       <fullWidth
-        link="location"
-        class="full-width"
-        title="Espace"
-        description="Loue l'espace pour ta prochaine activité!"
-        textcolor="black"
-        imgsrc="img/studio/photo-loue-espace.jpg"
-        logosrc="img/logo/lion.svg"
-      />
-      <div class="container-row">
-        <fullWidth
           link="yoga"
-          class="demi-width"
-          title="Ivy Yoga"
+          class="full-width"
+          title="Yoga"
           description="Viens yogater avec le proprio dans divers flow."
           sousdescription="En abonnement ou drop-in."
-          textcolor="#FCDA1E"
+          textcolor="white"
           imgsrc="img/studio/photo-cours-dan.jpg"
+        />
+      <div class="container-row">
+        <fullWidth
+          link="location"
+          class="demi-width"
+          title="Location"
+          description="Loue l'espace pour ta prochaine activité!"
+          textcolor="#FCDA1E"
+          imgsrc="img/studio/photo-loue-espace.jpg"
+          logosrc=""
         />
         <fullWidth
           link="evenements"
@@ -26,7 +26,7 @@
           title="Événements"
           description="Vient à l'un de nos multiples ateliers, cours de yoga, etc."
           sousdescription=""
-          textcolor="#FCDA1E"
+          textcolor="black"
           imgsrc="img/studio/photo-cours-dan.jpg"
         />
       </div>

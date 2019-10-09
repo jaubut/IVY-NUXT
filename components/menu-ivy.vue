@@ -8,17 +8,17 @@
     <div class="container-row">
       <div class="button-ivy">
         <n-link to="/location/">
-          <p>Loue l'espace</p>
+          <p>l'espace Ivy</p>
         </n-link>
       </div>
       <div class="button-ivy">
         <n-link to="/yoga/">
-          <p>Yoga avec Dan</p>
+          <p>Ivy yoga</p>
         </n-link>
       </div>
       <div class="button-ivy">
         <n-link to="/evenements/">
-          <p>Événements</p>
+          <p>Événements Ivy</p>
         </n-link>
       </div>
     </div>
