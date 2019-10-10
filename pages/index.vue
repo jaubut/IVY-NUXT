@@ -3,7 +3,7 @@
     <div class="">
       <fullWidth
           link="yoga"
-          class="full-width"
+          class="full-width-v-two"
           title="Yoga"
           description="Viens yogater avec le proprio dans divers flow."
           sousdescription="En abonnement ou drop-in."
@@ -13,7 +13,7 @@
       <div class="container-row">
         <fullWidth
           link="location"
-          class="demi-width"
+          class="demi-width-v-two"
           title="Location"
           description="Loue l'espace pour ta prochaine activité!"
           textcolor="#FCDA1E"
@@ -22,7 +22,7 @@
         />
         <fullWidth
           link="evenements"
-          class="demi-width"
+          class="demi-width-v-two"
           title="Événements"
           description="Vient à l'un de nos multiples ateliers, cours de yoga, etc."
           sousdescription=""

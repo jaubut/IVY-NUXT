@@ -40,6 +40,11 @@ h1 {
     font-size: 5rem;
     margin: 0.1rem;
 }
+h2 {
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 1rem;
+}
 h3 {
     font-weight: 300;
     font-size: 1.2rem;
@@ -61,6 +66,19 @@ a:hover {
     margin: 0 2rem 0.75rem 2rem;
 
 }
+.full-width-v-two {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 40vh;
+    max-height: 45vh;
+    padding: 0.75rem;
+    margin: 0 2rem 0.75rem 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
 .demi-width {
     display: grid;
     grid-template: 50% 50% / 50% 50%;
@@ -70,6 +88,18 @@ a:hover {
     overflow: hidden;
     margin: 0 2rem 4rem 2rem;
 }
+.demi-width-v-two {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 40vh;
+    width: 45%;
+    max-height: 45vh;
+    padding: 0.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .demi-width-descriptifs {
     display: flex;
     flex-flow: row wrap;
@@ -78,7 +108,18 @@ a:hover {
     width: auto;
     height: auto;
     overflow: hidden;
-    margin: 0 2rem 4rem 2rem;
+    padding: 0 2rem 4rem 2rem;
+}
+.container-prix {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    background: #FFEB79;
+    padding: 2rem 2rem 2rem 2rem;
 }
 .full-width-photos {
     display: flex;
@@ -89,7 +130,6 @@ a:hover {
     height: auto;
     overflow: hidden;
     margin: 0 2rem 4rem 2rem;
-
 }
 .container {
     width: 100%;
@@ -104,12 +144,11 @@ a:hover {
 .container-row {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 2rem 0.75rem 2rem;
 }
 .section-title {
-    font-size: 3rem;
     margin: 0 0 1rem 0;
     text-align: center;
 }
@@ -126,12 +165,25 @@ a:hover {
 @media screen and (max-width: 600px) {
     .demi-width {
         width: auto;
+        max-height: 25vh;
+        margin: 1rem;
+    }
+    .full-width {
+        width: auto;
+        max-height: 25vh;
+        margin: 1rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: x-large;
+    }
+    h2 {
+        font-size: large;
     }
     h3 {
-        font-size: 1rem;
+        font-size: small;
+    }
+    p {
+        font-size: x-small
     }
     .demi-width-descriptifs {
         width: auto;

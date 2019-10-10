@@ -1,6 +1,6 @@
 <template>
   <div :style="'color:' + textcolor +';'" class="descriptifs">
-    <h2>{{ title }}</h2>
+    <h3>{{ title }}</h3>
     <p>{{ description }}</p>
   </div>
 </template>
@@ -49,9 +49,6 @@ export default {
   text-align: justify;
   max-width: 25vw;
   padding: 0.75rem;
-}
-.descriptifs h2 {
-  font-size: 1.5rem;
 }
 @media screen and (max-width: 600px) {
     .descriptifs {

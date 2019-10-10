@@ -47,19 +47,23 @@
       <h2 class="section-title">
         Liste de prix <span class="taxes">+Tx</span>
       </h2>
-      <div class="demi-width-descriptifs">
+      <div class="container-prix">
         <prices
+          class="prices-v-two"
           title="1H"
           price="35$"
           description=""
         />
         <prices
+          class="prices-v-two"
           title="Bloc de 4H"
           price="120$"
-          backcolor="#FCDA1E"
+          backcolor=""
+          bordercolor="white"
           description=""
         />
         <prices
+          class="prices-v-two"
           title="Bloc de 8H"
           price="250$"
           description=""

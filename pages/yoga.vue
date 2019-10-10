@@ -65,31 +65,52 @@
       <h2 class="section-title">
         Liste de prix
       </h2>
-      <div class="demi-width-descriptifs">
+      <div class="container-prix">
         <prices
+          class="prices-v-two"
           title="Intro"
           price="50$"
-          backcolor="#FCDA1E"
+          backcolor=""
+          bordercolor="white"
           description="1er Mois de Yoga Illimité (Valable 1 fois par personne)"
         />
         <prices
+          class="prices-v-two"
           title="1 Semaine Illimité"
           price="35$"
           description="Aucun engagement, tu payes à la semaine"
         />
         <prices
+          class="prices-v-two"
           title="1 Mois Illimité"
           price="80$"
           description="Aucun engagement, tu payes au mois."
         />
         <prices
+          class="prices-v-two"
           title="3 Mois Illimité"
           price="210$"
           description="Aucun engagement, tu payes une fois au 3 mois."
         />
-      </div>
-      <div class="container-column">
-        <p class="text">Classe à la carte: 15 $<br>20 Classes - 20% ( = 12 $/Cours): 240 $ - Valide 12 mois<br>10 Classes - 10% ( = 13.5 $/Cours): 135 $ - Valide 6 mois</p>
+        <prices
+          class="prices-v-three"
+          title="Drop-in"
+          price="15$"
+          description="Classe à la carte"
+          bordercolor="white"
+        />
+        <prices
+          class="prices-v-three"
+          title="20 Classes"
+          price="240$"
+          description="- 20% ( = 12 $/Cours) - Valide 12 mois"
+        />
+        <prices
+          class="prices-v-three"
+          title="10 Classes"
+          price="135$"
+          description="- 10% ( = 13.5 $/Cours) - Valide 6 mois"
+        />
       </div>
       <div class="container-row">
         <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="bd11501717a9" data-widget-version="1"></healcode-widget>

@@ -56,8 +56,5 @@ export default {
   padding: 0 2.5rem;
 }
 @media screen and (max-width: 600px) {
-    .full-width {
-      margin: 0 2rem 2rem 2rem;
-    }
 }
 </style>

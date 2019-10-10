@@ -1,12 +1,9 @@
 <template>
-  <div class="container-block">
-    <img :src="imgsrcfinal" class="photo-full" alt="">
-    <div class="img-filter" />
-    <n-link :style="'color:' + textcolor +';'" class="infos-center" :to="'/' + link + '/'">
+  <div class="container-block" :style="'background-image: url(' + imgsrcfinal + ')'">
+    <n-link :style="'color:' + textcolor +';'" class="infos-center-v-two" :to="'/' + link + '/'">
       <h1>{{ title }}</h1>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
     </n-link>
-    <img :style="'fill:' + logocolor +';'" class="photo-logo" :src="logosrcfinal" alt="">
   </div>
 </template>
 
@@ -107,6 +104,14 @@ export default {
   text-align: center;
   transition: all .2s ease-in-out;
 }
+.infos-center-v-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
 .infos-center h3 {
   padding: 0 2.5rem;
 }
@@ -115,9 +120,6 @@ export default {
   background: rgba(0,0,0,0.2);
 }
 @media screen and (max-width: 600px) {
-    .full-width {
-      margin: 0 2rem 2rem 2rem;
-    }
     .photo-logo {
       height: -webkit-fill-available;
     }
