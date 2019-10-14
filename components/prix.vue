@@ -67,7 +67,7 @@ export default {
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  max-width: 20vw;
+  min-width: 20vw;
   padding: 0.75rem;
   margin: 0.75rem;
   border-radius: 5px;
