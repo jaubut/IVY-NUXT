@@ -71,6 +71,7 @@ a:hover {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    align-items: center;
     min-height: 40vh;
     max-height: 45vh;
     padding: 0.75rem;
