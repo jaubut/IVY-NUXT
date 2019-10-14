@@ -149,6 +149,9 @@ export default {
     textBlock,
     descriptifs,
     prices
+  },
+  mounted () {
+    this.$healcodeWidget()
   }
 }
 </script>
