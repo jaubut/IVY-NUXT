@@ -6,9 +6,13 @@
       </template>
       <h3>{{ title }}</h3>
     </div>
-    <p v-if="description !== null">{{ description }}</p>
+    <p v-if="description !== null">
+      {{ description }}
+    </p>
     <ul v-if="descriptionlist !== null">
-      <li v-for="item in descriptionlist" :key="item">{{ item }}</li>
+      <li v-for="item in descriptionlist" :key="item">
+        {{ item }}
+      </li>
     </ul>
   </div>
 </template>

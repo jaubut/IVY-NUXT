@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div id="fb-root" />
     <header>
       <menuIvy />
     </header>

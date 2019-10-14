@@ -13,7 +13,8 @@ export default {
     ],
     script: [
       { src: 'https://kit.fontawesome.com/e007d1f7cc.js' },
-      { src: 'https://widgets.healcode.com/javascripts/healcode.js' }
+      { src: 'https://widgets.healcode.com/javascripts/healcode.js' },
+      { src: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=421559441640655&autoLogAppEvents=1' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
