@@ -120,8 +120,11 @@
           description="- 10% ( = 13.5 $/Cours) - Valide 6 mois"
         />
       </div>
-      <div class="container-row">
-        <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="bd11501717a9" data-widget-version="1" />
+      <div class="full-width-v-two">
+        <h2 class="section-title">
+          Réserve ta classe sur <a target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Mindbody</a>
+        </h2>
+        <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
       </div>
       <h2 class="section-title">
         Horaire du 2 septembre au 21 decembre <br>
@@ -154,5 +157,16 @@ export default {
 </script>
 
 <style scoped>
-
+.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: black;
+  background-color: #FCDA1E;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
 </style>
