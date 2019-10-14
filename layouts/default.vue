@@ -94,8 +94,8 @@ a:hover {
     justify-content: center;
     min-height: 40vh;
     width: 45%;
-    max-height: 45vh;
     padding: 0.75rem;
+    margin: 0 0rem 0.75rem 0rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,7 +146,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2rem 0.75rem 2rem;
+    margin: 0 2rem 0rem 2rem;
 }
 .section-title {
     margin: 0 0 1rem 0;
@@ -172,6 +172,12 @@ a:hover {
         width: auto;
         max-height: 25vh;
         margin: 1rem;
+    }
+    .demi-width-v-two {
+        width: 100%;
+    }
+    .container-prix {
+        flex-flow: column;
     }
     h1 {
         font-size: x-large;

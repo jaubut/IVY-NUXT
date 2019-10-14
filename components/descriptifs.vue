@@ -1,7 +1,15 @@
 <template>
   <div :style="'color:' + textcolor +';'" class="descriptifs">
-    <h3>{{ title }}</h3>
-    <p>{{ description }}</p>
+    <div class="logo-container">
+      <template v-if="logoname !== null">
+        <img class="logo-descriptif" :src="logonamefinal" alt="">
+      </template>
+      <h3>{{ title }}</h3>
+    </div>
+    <p v-if="description !== null">{{ description }}</p>
+    <ul v-if="descriptionlist !== null">
+      <li v-for="item in descriptionlist" :key="item">{{ item }}</li>
+    </ul>
   </div>
 </template>
 
@@ -11,15 +19,20 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'IVY'
+      default: null
     },
-    imgsrc: {
+    logoname: {
       type: String,
-      default: ''
+      default: null
     },
     description: {
       type: String,
-      default: 'Espace IVY'
+      default: null
+    },
+    descriptionlist: {
+      type: Array,
+      default: null,
+      require: true
     },
     textcolor: {
       type: String,
@@ -37,6 +50,19 @@ export default {
   data () {
     return {
     }
+  },
+  computed: {
+    logonamefinal () {
+      // Return nothing for the default empty string
+      if (!this.logoname) {
+        return
+      }
+
+      const fileName = this.logoname
+
+      // Request the image as a webpack module by using `require`
+      return require(`../assets/img/logo/${fileName}.svg`)
+    }
   }
 }
 </script>
@@ -45,10 +71,23 @@ export default {
 .descriptifs {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: justify;
   max-width: 25vw;
   padding: 0.75rem;
+}
+.logo-descriptif {
+  height: 2rem;
+  margin: 0.1rem;
+  padding-right: 25px;
+}
+.logo-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+ul {
+  text-align: left;
 }
 @media screen and (max-width: 600px) {
     .descriptifs {

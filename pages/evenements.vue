@@ -2,7 +2,7 @@
   <Layout>
     <div>
       <fullWidth
-        class="full-width"
+        class="full-width-v-two"
         title="Évènements"
         description="Soit au courant de tous les événements IVY"
         textcolor="black"

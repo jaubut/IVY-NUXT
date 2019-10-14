@@ -5,7 +5,7 @@
         <img src="~/assets/img/logo/logo-menu.svg" width="120">
       </n-link>
     </div>
-    <div class="container-row">
+    <div class="container-row container-menu">
       <div class="button-ivy">
         <n-link to="/location/">
           <p>l'espace Ivy</p>
@@ -52,6 +52,9 @@ export default {
 }
 .button-ivy p {
     font-size: 1rem;
+}
+.container-menu {
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
     .button-ivy {

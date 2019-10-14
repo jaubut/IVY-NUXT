@@ -2,14 +2,14 @@
   <Layout>
     <div class="">
       <fullWidth
-          link="yoga"
-          class="full-width-v-two"
-          title="Yoga"
-          description="Viens yogater avec le proprio dans divers flow."
-          sousdescription="En abonnement ou drop-in."
-          textcolor="white"
-          imgsrc="img/studio/photo-cours-dan.jpg"
-        />
+        link="yoga"
+        class="full-width-v-two"
+        title="Yoga"
+        description="Viens yogater avec le proprio dans divers flow."
+        sousdescription="En abonnement ou drop-in."
+        textcolor="white"
+        imgsrc="img/studio/photo-cours-dan.jpg"
+      />
       <div class="container-row">
         <fullWidth
           link="location"

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div :style="'color:' + textcolor +';'" class="infos-center">
-      <h1>{{ title }}</h1>
+    <div :style="'color:' + textcolor +';'" class="infos-center-v-two">
+      <h2>{{ title }}</h2>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
     </div>
   </div>
@@ -52,7 +52,19 @@ export default {
   align-items: center;
   text-align: center;
 }
-.infos-center h3 {
+.infos-center-v-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  margin: 2rem;
+}
+h2 {
+  margin: 0;
+}
+h3 {
   padding: 0 2.5rem;
 }
 @media screen and (max-width: 600px) {

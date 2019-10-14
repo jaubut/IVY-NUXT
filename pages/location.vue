@@ -2,30 +2,27 @@
   <Layout>
     <div>
       <fullWidth
-        class="full-width"
+        class="full-width-v-two"
         title="l'espace Ivy"
         description="Loue l'espace pour ta prochaine activité!"
         textcolor="white"
         link=""
         imgsrc="img/studio/photo-loue-espace.jpg"
       />
-      <div class="full-width-photos">
-        <img class="portrait-photo photo" src="~/assets/img/studio/photo-cours-dan.jpg" alt="">
-        <img class="landscape-photo photo" src="~/assets/img/studio/galerie.jpg" alt="">
-        <img class="landscape-photo photo" src="~/assets/img/studio/salle-essayage.jpg" alt="">
-        <img class="portrait-photo photo" src="~/assets/img/studio/vestiere.jpg" alt="">
-      </div>
+      <photos
+        imgscrun="img/studio/photo-loue-espace.jpg"
+        imgscrdeux="img/studio/photo-loue-espace.jpg"
+        imgscrtrois="img/studio/photo-loue-espace.jpg"
+        imgscrquatre="img/studio/photo-loue-espace.jpg"
+        imgscrcinq="img/studio/photo-loue-espace.jpg"
+      />
       <div class="container-row">
         <fullWidth
-          class="demi-width"
-          title=""
-          description=""
-          textcolor="white"
-          link=""
-          imgsrc="img/yoga/yoga-dan-2.jpg"
+          class="demi-width-v-two"
+          imgsrc="img/studio/photo-loue-espace.jpg"
         />
         <textBlock
-          class="demi-width"
+          class="demi-width-v-two"
           title="Informations"
           description="Grand loft industriel lumineux classé patrimoine culturel du Québec! Capacité d’accueil de 30 personnes (pour le yoga) 1550 Pi2 / 15Pi de hauteur sous plafond. Plancher de bois franc."
           textcolor="black"
@@ -37,11 +34,11 @@
       <div class="demi-width-descriptifs">
         <descriptifs
           title="Matériel"
-          description="40 Blocs de liège - 25 Traversins Moyen en coton / 25 Sangles en coton / 20 Yoga Tune Up – Therapy Balls / 20 Chaises pliantes / 10 Tapis BMAT/ 25 Couvertures cotton indien."
+          :descriptionlist="materiels"
         />
         <descriptifs
           title="Équipement"
-          description="Coin lounge minimaliste & ethnique / Coin réception épuré & ergonomique / Fontaine Ovopur / Access à internet / Vidéoprojecteur / Speaker Bose Revolve (son à 360 degrés)."
+          :descriptionlist="equipements"
         />
       </div>
       <h2 class="section-title">
@@ -53,6 +50,7 @@
           title="1H"
           price="35$"
           description=""
+          cta="Réserve"
         />
         <prices
           class="prices-v-two"
@@ -61,12 +59,14 @@
           backcolor=""
           bordercolor="white"
           description=""
+          cta="Réserve"
         />
         <prices
           class="prices-v-two"
           title="Bloc de 8H"
           price="250$"
           description=""
+          cta="Réserve"
         />
       </div>
     </div>
@@ -77,14 +77,22 @@
 import fullWidth from '~/components/fullWidthBloc.vue'
 import textBlock from '~/components/text-block.vue'
 import descriptifs from '~/components/descriptifs.vue'
-import prices from '~/components/prix.vue'
+import prices from '~/components/prixReserve.vue'
+import photos from '~/components/blocphoto.vue'
 
 export default {
   components: {
     fullWidth,
     textBlock,
     prices,
-    descriptifs
+    descriptifs,
+    photos
+  },
+  data () {
+    return {
+      materiels: ['40 Blocs de liège', '25 Traversins Moyen en coton', '25 Sangles en coton', '20 Yoga Tune Up', 'Therapy Balls', '20 Chaises pliantes', '10 Tapis BMAT', '25 Couvertures cotton indien'],
+      equipements: ['Coin lounge minimaliste & ethnique', 'Coin réception épuré & ergonomique', 'Fontaine Ovopur', 'Access à internet', 'Vidéoprojecteur', 'Speaker Bose Revolve (son à 360 degrés)']
+    }
   }
 }
 </script>
@@ -100,5 +108,10 @@ export default {
 }
 .taxes {
   font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .taxes {
+    font-size: small;
+  }
 }
 </style>

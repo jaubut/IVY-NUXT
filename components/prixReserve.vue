@@ -4,6 +4,7 @@
       <h2>{{ title }}</h2>
       <h4>{{ price }}</h4>
       <p>{{ description }}</p>
+      <a class="reserve" href="mailto:jeremie.aubut@gmail.com">{{ cta }}</a>
     </div>
   </div>
 </template>
@@ -39,6 +40,10 @@ export default {
     bordercolor: {
       type: String,
       default: ''
+    },
+    cta: {
+      type: String,
+      default: null
     }
   },
   data () {
@@ -67,7 +72,7 @@ export default {
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  max-width: 20vw;
+  min-width: 20vw;
   padding: 0.75rem;
   margin: 0.75rem;
   border-radius: 5px;
@@ -102,6 +107,18 @@ h4 {
     flex-flow: column;
     align-items: center;
     align-content: flex-start;
+}
+.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: black;
+  background-color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 600px) {
     .prices, .prices-v-two, .prices-v-three {
