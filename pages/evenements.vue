@@ -36,6 +36,9 @@ import fullWidth from '~/components/fullWidthBloc.vue'
 export default {
   components: {
     fullWidth
+  },
+  mounted () {
+    this.$initFbSDK()
   }
 }
 </script>
