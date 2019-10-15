@@ -68,5 +68,8 @@ h3 {
   padding: 0 2.5rem;
 }
 @media screen and (max-width: 600px) {
+  h3 {
+    padding: 0;
+  }
 }
 </style>
