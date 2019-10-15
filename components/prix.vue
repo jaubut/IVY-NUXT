@@ -1,5 +1,5 @@
 <template>
-  <div :style="'color:' + textcolor +'; background:' + backcolor +'; border-color:' + bordercolor + ';'">
+  <div :style="'color:' + textcolor +'; background:' + backcolor +';'">
     <div class="container-price">
       <h2>{{ title }}</h2>
       <h4>{{ price }}</h4>
@@ -35,10 +35,6 @@ export default {
     link: {
       type: String,
       default: ''
-    },
-    bordercolor: {
-      type: String,
-      default: ''
     }
   },
   data () {
@@ -54,9 +50,10 @@ export default {
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  max-width: 20vw;
+  width: 20vw;
+  height: 15vh;
   padding: 0.75rem;
-  margin: 0.75rem;
+  margin: 0.5rem;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -89,12 +86,16 @@ export default {
   border-color: transparent;
 }
 h2 {
+    font-size: 1rem;
     margin: 0;
     padding: 0.75rem 0 0.25rem 0;
 }
 h4 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 0;
+}
+p {
+  font-size: small;
 }
 .container-price {
     text-align: center;
@@ -102,6 +103,10 @@ h4 {
     flex-flow: column;
     align-items: center;
     align-content: flex-start;
+}
+.logo-descriptif {
+  height: 3rem;
+  margin: 0.1rem;
 }
 @media screen and (max-width: 600px) {
     .prices, .prices-v-two, .prices-v-three {

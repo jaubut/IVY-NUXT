@@ -7,7 +7,7 @@
         description="Viens yogater à l'espace Ivy !"
         textcolor="white"
         link=""
-        imgsrc="img/yoga/yoga-dan.jpg"
+        imgsrc="img/yoga/flow-4.jpg"
       />
       <div class="container-row">
         <fullWidth
@@ -16,7 +16,7 @@
           description=""
           textcolor="white"
           link=""
-          imgsrc="img/yoga/yoga-dan-2.jpg"
+          imgsrc="img/yoga/flow-3.jpg"
         />
         <textBlock
           class="demi-width-v-two"
@@ -30,44 +30,36 @@
       </h2>
       <div class="demi-width-descriptifs">
         <descriptifs
-          title="FLOW FOR ALL"
-          description="Entre le Flow Chill (Hatha Flow Yoga) et le Flow Go (Vinyasa Yoga) cette classe est une combinaison de postures statiques (Hatha Yoga) et de mouvements (Vinyasa Yoga). Une pratique pour tous, ou les débutants comme les plus initiés auront du plaisir!"
-          logoname="liere-debout"
+          title="FLOW CHILL"
+          description="Ce cours de type Hatha Flow Yoga est une combinaison de postures statiques (Hatha Yoga) et de mouvements (Vinyasa Yoga). Énergisant, il renforce le corps, fait circuler l'énergie et canalise l'esprit. Ce cours est excellent pour ceux qui souhaitent une classe active et accessible!"
         />
         <descriptifs
-          title="FLOW CHILL"
-          description="Ce cours de type Hatha Flow Yoga est une combinaison de postures statiques (Hatha Yoga) et de mouvement (Vinyasa Yoga). Énergisant, il renforce le corps, fait circuler l'énergie et canalise l'esprit. Un cours tous niveaux!"
-          logoname="liere"
+          title="FLOW FOR ALL"
+          description="Entre le Flow Chill (Hatha Flow Yoga) et le Flow Go (Vinyasa Yoga) cette classe est une combinaison de postures statiques (Hatha Yoga) et de mouvements (Vinyasa Yoga). Une pratique pour tous, ou les débutants comme les plus initiés auront du plaisir!"
         />
         <descriptifs
           title="FLOW GO"
-          description="Ce cours de type Vinyasa Yoga à un rythme plus soutenu que le Flow Chill (Hatha Flow Yoga) car il inclut des séquences plus stimulantes. Il convient aux pratiquants qui ont une bonne base en yoga!"
-          logoname="moudra"
+          description="Ce cours de type Vinyasa Yoga à un rythme plus soutenu que le Flow Chill (Hatha Flow Yoga) car il inclut des séquences plus stimulantes. Il convient aux pratiquants qui ont une base établie en yoga!"
         />
         <descriptifs
           title="KICK ASS"
-          description="Savant mélange de Vinyasa Yoga et de Fitness, ce cours est parfait pour les gens qui s’entraînent régulièrement ou qui ont une pratique de yoga bien établie. Il est aussi idéal pour toutes personnes motivées souhaitant se remettre en forme rapidement. Cette classe d'un niveau plus exigeant que le Flow Go (Vinyasa Yoga) promet son lot de challenge. Apportez une serviette car vous risquez sérieusement de transpirer!"
-          logoname="pigeon"
-        />
-        <descriptifs
-          title="RELAX"
-          description="Délicieux mélange de Yin, Thérapeutique, Restoratif et Nidra Yoga. Excellent pour calmer le mental, gagner en Flexibilité et se Relaxer. Ce cours est parfait pour lâcher prise complètement et pour une totale régénération. Un cours tous niveaux!"
-          logoname="serpent"
-        />
-        <descriptifs
-          title="UP & DOWN"
-          description="2/3 Flow Go (Vinyasa Yoga) & 1/3 Relax (mix de Yin, Therapeutique, Restoratif & Nidra Yoga)! Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yin Yoga (postures assises et allongées + relaxation). Un reset complet sur l’heure du midi afin de repartir pleinement revitalise pour le reste de la journée. Un cours tous niveaux qui offre quelques défis!"
-          logoname="logo-footer"
-        />
-        <descriptifs
-          title="MOBILITÉ"
-          description="Ce cours « carte blanche » est très versatile! Exercices spécifiques d’alignement postural, mouvements fonctionnels, transition entre deux postures. Plusieurs possibilités sont offertes adaptées aux participants. Cours tous niveaux!"
-          logoname="logo-menu"
+          description="Inspiré par l’Ashtanga Yoga, Le cours Kick Ass est plus athlétique et musculaire que le Flow Go (Vinyasa Yoga). Il s’agit d’un cours dynamique qui vise un renfoncement accru de tous les muscles du corps, particulièrement des abdominaux. Ce cours s’adresse aux gens avides de postures plus avancées et d'enchaînements plus rapides!"
         />
         <descriptifs
           title="YOGA DOUX"
           description="Ce cours de type Hatha Yoga est accessible à tous et convient particulièrement aux personnes qui ont des limitations physiques, que ce soit lié à l’âge, la maladie, une blessure. Une combinaison de mouvements lents et de postures de type Thérapeutique. Excellent pour rester actif tout en douceur!"
-          logoname="lion"
+        />
+        <descriptifs
+          title="RELAX"
+          description="Délicieux mélange de Yin, Thérapeutique, Restoratif et Nidra Yoga. Excellent pour calmer le mental, gagner en Flexibilité et se Relaxer. Ce cours est parfait pour lâcher prise complètement et pour une totale régénération. Un cours adapté, accessible à tous!"
+        />
+        <descriptifs
+          title="UP & DOWN"
+          description="2/3 Flow Go (Vinyasa Yoga) & 1/3 Relax (mix de Yin, Therapeutique, Restoratif & Nidra Yoga)! Cette séance est une combinaison parfaite de Vinyasa Yoga (mouvements debout) et de Yin Yoga (postures assises et allongées + relaxation). Un reset complet sur l’heure du midi afin de repartir pleinement revitalise pour le reste de la journée. Un cours tous niveaux qui offre quelques défis!"
+        />
+        <descriptifs
+          title="MOBILITÉ"
+          description="Cette classe aborde des exercices spécifiques d’alignement postural, mouvements fonctionnels, transition entre deux postures. Plusieurs possibilités sont offertes adaptées aux participants. Cours tous niveaux!"
         />
       </div>
       <h2 class="section-title">
@@ -75,56 +67,53 @@
       </h2>
       <div class="container-prix">
         <prices
-          class="prices-v-two"
+          class="prices"
           title="Intro"
           price="50$"
-          backcolor=""
-          bordercolor="white"
+          backcolor="#FCDA1E"
           description="1er Mois de Yoga Illimité (Valable 1 fois par personne)"
         />
         <prices
-          class="prices-v-two"
+          class="prices"
           title="1 Semaine Illimité"
           price="35$"
+          backcolor="white"
           description="Aucun engagement, tu payes à la semaine"
         />
         <prices
-          class="prices-v-two"
+          class="prices"
           title="1 Mois Illimité"
           price="80$"
+          backcolor="white"
           description="Aucun engagement, tu payes au mois."
         />
         <prices
-          class="prices-v-two"
+          class="prices"
           title="3 Mois Illimité"
           price="210$"
+          backcolor="#FCDA1E"
           description="Aucun engagement, tu payes une fois au 3 mois."
         />
         <prices
-          class="prices-v-three"
+          class="prices"
           title="Drop-in"
           price="15$"
           description="Classe à la carte"
-          bordercolor="white"
         />
         <prices
-          class="prices-v-three"
+          class="prices"
           title="20 Classes"
           price="240$"
+          backcolor="#FCDA1E"
           description="- 20% ( = 12 $/Cours) - Valide 12 mois"
         />
         <prices
-          class="prices-v-three"
+          class="prices"
           title="10 Classes"
           price="135$"
+          backcolor="white"
           description="- 10% ( = 13.5 $/Cours) - Valide 6 mois"
         />
-      </div>
-      <div class="full-width-v-two">
-        <h2 class="section-title">
-          Réserve ta classe sur <a target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Mindbody</a>
-        </h2>
-        <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
       </div>
       <h2 class="section-title">
         Horaire du 2 septembre au 21 decembre <br>
@@ -133,17 +122,17 @@
       <div class="container-column">
         <img class="image" src="~/assets/img/horaire/horaire-web.png" alt="">
       </div>
-      <client-only placeholder="Loading...">
-        <div class="container-column">
-          <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="bd11501717a9" data-widget-version="1" />
-        </div>
-      </client-only>
+      <div class="full-width-v-two">
+        <h2 class="section-title">
+          Réserve ta classe sur <a target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Mindbody</a>
+        </h2>
+        <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
+      </div>
     </div>
   </Layout>
 </template>
 
 <script>
-import ClientOnly from 'vue-client-only'
 import fullWidth from '~/components/fullWidthBloc.vue'
 import textBlock from '~/components/text-block.vue'
 import descriptifs from '~/components/descriptifs.vue'
@@ -151,7 +140,6 @@ import prices from '~/components/prix.vue'
 
 export default {
   components: {
-    ClientOnly,
     fullWidth,
     textBlock,
     descriptifs,

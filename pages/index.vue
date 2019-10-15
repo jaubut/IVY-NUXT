@@ -5,8 +5,8 @@
         link="yoga"
         class="full-width-v-two"
         title="Yoga"
-        description="Viens yogater avec le proprio dans divers flow."
-        sousdescription="En abonnement ou drop-in."
+        description="Toutes les classes sont ouvertes."
+        sousdescription="Les portes ouvrent 15 minutes avant le cours."
         textcolor="#FCDA1E"
         imgsrc="img/studio/photo-cours-dan.jpg"
       />

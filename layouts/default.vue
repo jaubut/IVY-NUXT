@@ -115,12 +115,12 @@ a:hover {
 .container-prix {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     width: auto;
     height: auto;
     overflow: hidden;
-    background: #FFEB79;
+    background: white;
     padding: 2rem 2rem 2rem 2rem;
 }
 .full-width-photos {

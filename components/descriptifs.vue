@@ -77,7 +77,7 @@ export default {
   flex-flow: row wrap;
   justify-content: center;
   text-align: justify;
-  max-width: 25vw;
+  max-width: 20vw;
   padding: 0.75rem;
 }
 .logo-descriptif {
@@ -95,6 +95,7 @@ ul {
 }
 h3 {
   text-align: left;
+  font-weight: bolder;
 }
 @media screen and (max-width: 600px) {
     .descriptifs {
