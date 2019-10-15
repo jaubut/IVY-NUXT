@@ -4,7 +4,6 @@
       <h1>{{ title }}</h1>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
     </n-link>
-    <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
   </div>
 </template>
 
@@ -127,12 +126,15 @@ export default {
   align-items: center;
   border: none;
   color: black;
-  background-color: #FCDA1E;
+  background-color: rgba(252, 218, 30, 0.5);
   margin: 0.75rem;
   width: 10rem;
   height: 3rem;
   border-radius: 5px;
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+.reverse:hover {
+  background-color: rgba(252, 218, 30, 1);
 }
 @media screen and (max-width: 600px) {
     .photo-logo {
