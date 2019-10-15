@@ -185,13 +185,13 @@ a:hover {
         font-size: x-large;
     }
     h2 {
-        font-size: large;
+        font-size: x-large;
     }
     h3 {
-        font-size: small;
+        font-size: medium;
     }
     p {
-        font-size: x-small
+        font-size: small
     }
     .demi-width-descriptifs {
         width: auto;
