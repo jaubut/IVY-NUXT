@@ -18,7 +18,7 @@
       </div>
       <h2 class="section-title">
         Exposition en cours<br>
-        <span><h3>En savoir plus sur l'artiste <a target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Dan</a></h3></span>
+        <span><h3>En savoir plus sur l'artiste: <a target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Dan</a></h3></span>
       </h2>
       <carousel class="full-width-v-two" :per-page="2" :mouse-drag="true">
         <slide class="slideshow">
