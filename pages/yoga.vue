@@ -133,6 +133,11 @@
       <div class="container-column">
         <img class="image" src="~/assets/img/horaire/horaire-web.png" alt="">
       </div>
+      <client-only placeholder="Loading...">
+        <div class="container-column">
+          <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="bd11501717a9" data-widget-version="1" />
+        </div>
+      </client-only>
     </div>
   </Layout>
 </template>
