@@ -43,13 +43,23 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
   ],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'http://ivy-yoga.ca',
+    cacheTime: 1000 * 60 * 15,
+    generate: true
+  },
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-149485074-1'
+    }],
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Axios module configuration
