@@ -180,6 +180,7 @@ a:hover {
     }
     .container-prix {
         flex-flow: column;
+        align-items: center;
     }
     h1 {
         font-size: x-large;

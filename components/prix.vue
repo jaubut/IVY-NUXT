@@ -51,7 +51,7 @@ export default {
   justify-content: center;
   text-align: center;
   width: 20vw;
-  height: 15vh;
+  min-height: 15vh;
   padding: 0.75rem;
   margin: 0.5rem;
   border-radius: 5px;
@@ -110,8 +110,8 @@ p {
 }
 @media screen and (max-width: 600px) {
     .prices, .prices-v-two, .prices-v-three {
-      width: auto;
-      justify-content: flex-start;
+      width: 70vw;
+      justify-content: center;
     }
     h2 {
       font-size: large;
