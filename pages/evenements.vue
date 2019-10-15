@@ -16,16 +16,37 @@
         </h2>
         <a class="reserve" target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Événements</a>
       </div>
+      <h2 class="section-title">
+        Exposition en cours<br>
+        <span><h3>En savoir plus sur l'artiste <a target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Dan</a></h3></span>
+      </h2>
+      <carousel class="full-width-v-two" :per-page="2" :mouse-drag="true">
+        <slide class="slideshow">
+          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
+        </slide>
+        <slide class="slideshow">
+          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
+        </slide>
+        <slide class="slideshow">
+          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
+        </slide>
+        <slide class="slideshow">
+          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
+        </slide>
+      </carousel>
     </div>
   </Layout>
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel'
 import fullWidth from '~/components/fullWidthBloc.vue'
 
 export default {
   components: {
-    fullWidth
+    fullWidth,
+    Carousel,
+    Slide
   },
   data () {
     return {
@@ -62,5 +83,15 @@ export default {
   height: 3rem;
   border-radius: 5px;
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+.img-galerie {
+  height: auto;
+  max-width: 45vw;
+}
+.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem;
 }
 </style>
