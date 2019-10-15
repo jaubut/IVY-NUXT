@@ -9,8 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"}
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
       { src: 'https://kit.fontawesome.com/e007d1f7cc.js' },
