@@ -93,6 +93,9 @@ export default {
 ul {
   text-align: left;
 }
+h3 {
+  text-align: left;
+}
 @media screen and (max-width: 600px) {
     .descriptifs {
       max-width: 80vw;

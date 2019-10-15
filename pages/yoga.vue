@@ -143,6 +143,7 @@
 </template>
 
 <script>
+import ClientOnly from 'vue-client-only'
 import fullWidth from '~/components/fullWidthBloc.vue'
 import textBlock from '~/components/text-block.vue'
 import descriptifs from '~/components/descriptifs.vue'
@@ -153,6 +154,7 @@ export default {
     title: 'Yoga'
   },
   components: {
+    ClientOnly,
     fullWidth,
     textBlock,
     descriptifs,

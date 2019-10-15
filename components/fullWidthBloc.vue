@@ -13,7 +13,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'IVY'
+      default: null
     },
     imgsrc: {
       type: String,
@@ -21,7 +21,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'Espace IVY'
+      default: null
     },
     textcolor: {
       type: String,
@@ -33,11 +33,11 @@ export default {
     },
     link: {
       type: String,
-      default: 'index'
+      default: null
     },
     logosrc: {
       type: String,
-      default: ''
+      default: null
     },
     logocolor: {
       type: String,
@@ -105,6 +105,7 @@ export default {
   transition: all .2s ease-in-out;
 }
 .infos-center-v-two {
+  position: relative;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;

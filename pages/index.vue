@@ -7,7 +7,7 @@
         title="Yoga"
         description="Viens yogater avec le proprio dans divers flow."
         sousdescription="En abonnement ou drop-in."
-        textcolor="white"
+        textcolor="#FCDA1E"
         imgsrc="img/studio/photo-cours-dan.jpg"
       />
       <div class="container-row">
@@ -16,7 +16,7 @@
           class="demi-width-v-two"
           title="Location"
           description="Loue l'espace pour ta prochaine activité!"
-          textcolor="#FCDA1E"
+          textcolor="black"
           imgsrc="img/studio/photo-loue-espace.jpg"
           logosrc=""
         />
@@ -26,7 +26,7 @@
           title="Événements"
           description="Vient à l'un de nos multiples ateliers, cours de yoga, etc."
           sousdescription=""
-          textcolor="black"
+          textcolor="white"
           imgsrc="img/studio/photo-cours-dan.jpg"
         />
       </div>

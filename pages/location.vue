@@ -10,16 +10,16 @@
         imgsrc="img/studio/photo-loue-espace.jpg"
       />
       <photos
-        imgscrun="img/studio/photo-loue-espace.jpg"
-        imgscrdeux="img/studio/photo-loue-espace.jpg"
-        imgscrtrois="img/studio/photo-loue-espace.jpg"
-        imgscrquatre="img/studio/photo-loue-espace.jpg"
-        imgscrcinq="img/studio/photo-loue-espace.jpg"
+        imgsrcun="img/studio/photo-cours-dan.jpg"
+        imgsrcdeux="img/studio/vestiere.jpg"
+        imgsrctrois="img/studio/bureau.jpg"
+        imgsrcquatre="img/studio/salle-essayage.jpg"
+        imgsrccinq="img/studio/eau.jpg"
       />
       <div class="container-row">
         <fullWidth
           class="demi-width-v-two"
-          imgsrc="img/studio/photo-loue-espace.jpg"
+          imgsrc="img/studio/galerie.jpg"
         />
         <textBlock
           class="demi-width-v-two"

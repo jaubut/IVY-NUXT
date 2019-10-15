@@ -38,7 +38,7 @@ div {
 }
 h1 {
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0.1rem;
 }
 h2 {
@@ -68,6 +68,7 @@ a:hover {
 
 }
 .full-width-v-two {
+    position: relative;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -79,7 +80,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 .demi-width {
     display: grid;

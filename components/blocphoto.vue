@@ -13,23 +13,23 @@ export default {
   props: {
     imgsrcun: {
       type: String,
-      default: 'img/studio/photo-loue-espace.jpg'
+      default: null
     },
     imgsrcdeux: {
       type: String,
-      default: 'img/studio/photo-loue-espace.jpg'
+      default: null
     },
     imgsrctrois: {
       type: String,
-      default: 'img/studio/photo-loue-espace.jpg'
+      default: null
     },
     imgsrcquatre: {
       type: String,
-      default: 'img/studio/photo-loue-espace.jpg'
+      default: null
     },
     imgsrccinq: {
       type: String,
-      default: 'img/studio/photo-loue-espace.jpg'
+      default: null
     }
   },
   computed: {
