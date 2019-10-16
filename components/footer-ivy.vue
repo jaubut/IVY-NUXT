@@ -11,8 +11,8 @@
     <div class="infos-footer footer-icon">
       <a href="https://www.instagram.com/espaceivy/" target="_blank"><i class="fab fa-instagram" /></a>
       <a href="https://www.facebook.com/espaceivy/" target="_blank"><i class="fab fa-facebook-square" /></a>
-      <a title="450-775-8112" href="tel:4507758112" target="_blank"><i class="fas fa-phone-alt" /></a>
-      <a title="jeremie.aubut@gmail.com" href="mailto:jeremie.aubut@gmail.com" target="_blank"><i class="far fa-envelope" /></a>
+      <a title="450-775-8112" href="tel:15149149859" target="_blank"><i class="fas fa-phone-alt" /></a>
+      <a title="jeremie.aubut@gmail.com" href="mailto:esapce@ivy-yoga.ca" target="_blank"><i class="far fa-envelope" /></a>
     </div>
   </div>
 </template>
