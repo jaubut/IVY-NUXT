@@ -1,37 +1,19 @@
 <template>
   <Layout>
     <div>
-      <fullWidth
-        class="full-width-v-two"
-        title="Évènements"
-        description="Soit au courant de tous les événements IVY"
-        textcolor="black"
-        link=""
-        imgsrc="img/studio/photo-loue-espace.jpg"
-      />
-      <div class="full-width-v-two">
+      <div class="full-width-v-two photo-event">
         <h2 class="section-title">
-          Consulte tous les évènements de l'espace Ivy<br>
-          <span><h3>Mise à jour sur <a target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Facebook</a></h3></span>
+          Consulte tous les évènements<br>
         </h2>
-        <a class="reserve" target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Événements</a>
+        <a class="reserve" target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Mise à jour sur facebook</a>
       </div>
-      <h2 class="section-title">
+      <h2 class="section-title margin-event">
         Exposition en cours<br>
-        <span><h3>En savoir plus sur l'artiste: <a target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Dan</a></h3></span>
+        <span><h3>En savoir plus sur l'artiste: <a target="_blank" href="https://www.stef-d.com/"><strong>Stéphane Desmeules</strong></a></h3></span>
       </h2>
-      <carousel class="full-width-v-two" :per-page="2" :mouse-drag="true">
+      <carousel class="" :per-page="1" :mouse-drag="true">
         <slide class="slideshow">
-          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
-        </slide>
-        <slide class="slideshow">
-          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
-        </slide>
-        <slide class="slideshow">
-          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
-        </slide>
-        <slide class="slideshow">
-          <img class="img-galerie" src="~assets/img/studio/photo-loue-espace.jpg" alt="">
+          <img class="img-galerie" src="~assets/img/galerie/galerie-1.jpg" alt="">
         </slide>
       </carousel>
     </div>
@@ -40,11 +22,9 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel'
-import fullWidth from '~/components/fullWidthBloc.vue'
 
 export default {
   components: {
-    fullWidth,
     Carousel,
     Slide
   },
@@ -80,19 +60,29 @@ export default {
   border: none;
   color: black;
   background-color: #FCDA1E;
-  width: 10rem;
+  padding: 0.25rem 0.75rem;
+  min-width: 10rem;
   height: 3rem;
   border-radius: 5px;
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
 }
 .img-galerie {
   height: auto;
-  max-width: 45vw;
+  max-width: 80vw;
 }
 .slideshow {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0.75rem;
+}
+.photo-event {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(~assets/img/studio/eka.jpg);
+}
+.margin-event {
+  margin-top: 5rem;
 }
 </style>

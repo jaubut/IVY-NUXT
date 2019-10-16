@@ -15,7 +15,7 @@
           link="location"
           class="demi-width-v-two"
           title="Location"
-          description="Loue l'espace pour ta prochaine activité!"
+          description="Loue l'espace pour tes projets!"
           textcolor="black"
           imgsrc="img/studio/photo-loue-espace.jpg"
           logosrc=""
@@ -23,11 +23,11 @@
         <fullWidth
           link="evenements"
           class="demi-width-v-two"
-          title="Événements"
-          description="Vient à l'un de nos multiples ateliers, cours de yoga, etc."
+          title="Événements & Art"
+          description="Découvre, explore, partage!"
           sousdescription=""
-          textcolor="white"
-          imgsrc="img/studio/photo-cours-dan.jpg"
+          textcolor="black"
+          imgsrc="img/studio/eka.jpg"
         />
       </div>
     </div>

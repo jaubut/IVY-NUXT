@@ -4,7 +4,7 @@
       <h2>{{ title }}</h2>
       <h4>{{ price }}</h4>
       <p>{{ description }}</p>
-      <a class="reserve" href="mailto:jeremie.aubut@gmail.com">{{ cta }}</a>
+      <a class="reserve" href="mailto:espace@ivy-yoga.ca">{{ cta }}</a>
     </div>
   </div>
 </template>
@@ -59,9 +59,10 @@ export default {
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  max-width: 20vw;
+  width: 20vw;
+  min-height: 25vh;
   padding: 0.75rem;
-  margin: 0.75rem;
+  margin: 0.5rem;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -114,7 +115,7 @@ h4 {
   align-items: center;
   border: none;
   color: black;
-  background-color: white;
+  background-color: #FCDA1E;
   width: 10rem;
   height: 3rem;
   border-radius: 5px;

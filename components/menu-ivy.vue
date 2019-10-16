@@ -8,17 +8,17 @@
     <div class="container-row container-menu">
       <div class="button-ivy">
         <n-link to="/location/">
-          <p>l'espace Ivy</p>
+          <p>Espace Ivy</p>
         </n-link>
       </div>
       <div class="button-ivy">
         <n-link to="/yoga/">
-          <p>Ivy yoga</p>
+          <p>Ivy Yoga</p>
         </n-link>
       </div>
       <div class="button-ivy">
         <n-link to="/evenements/">
-          <p>Événements Ivy</p>
+          <p>Événements & Art</p>
         </n-link>
       </div>
     </div>

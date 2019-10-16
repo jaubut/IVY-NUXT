@@ -63,54 +63,54 @@
         />
       </div>
       <h2 class="section-title">
-        Liste de prix
+        Liste de prix<span class="taxes">+Tx</span>
       </h2>
       <div class="container-prix">
         <prices
           class="prices"
           title="Intro"
-          price="50$"
+          price="50 $"
           backcolor="#FCDA1E"
           description="1er Mois de Yoga Illimité (Valable 1 fois par personne)"
         />
         <prices
           class="prices"
           title="1 Semaine Illimité"
-          price="35$"
+          price="35 $"
           backcolor="white"
           description="Aucun engagement, tu payes à la semaine"
         />
         <prices
           class="prices"
           title="1 Mois Illimité"
-          price="80$"
+          price="80 $"
           backcolor="white"
           description="Aucun engagement, tu payes au mois."
         />
         <prices
           class="prices"
           title="3 Mois Illimité"
-          price="210$"
+          price="210 $"
           backcolor="#FCDA1E"
           description="Aucun engagement, tu payes une fois au 3 mois."
         />
         <prices
           class="prices"
           title="Drop-in"
-          price="15$"
+          price="15 $"
           description="Classe à la carte"
         />
         <prices
           class="prices"
           title="20 Classes"
-          price="240$"
+          price="240 $"
           backcolor="#FCDA1E"
           description="- 20% ( = 12 $/Cours) - Valide 12 mois"
         />
         <prices
           class="prices"
           title="10 Classes"
-          price="135$"
+          price="135 $"
           backcolor="white"
           description="- 10% ( = 13.5 $/Cours) - Valide 6 mois"
         />
@@ -122,7 +122,7 @@
       <div class="container-column">
         <img class="image" src="~/assets/img/horaire/horaire-web.png" alt="">
       </div>
-      <div class="full-width-v-two">
+      <div class="container-column">
         <h2 class="section-title">
           Réserve ta classe sur <a target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Mindbody</a>
         </h2>
@@ -177,5 +177,13 @@ export default {
   height: 3rem;
   border-radius: 5px;
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+.taxes {
+  font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .taxes {
+    font-size: small;
+  }
 }
 </style>
