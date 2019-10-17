@@ -103,6 +103,8 @@ export default {
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'og:image', property: 'og:image', content: '/img/studio/photo-loue-espace.jpg' },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
         { hid: 'description', name: 'description', content: this.description }
       ]
     }
