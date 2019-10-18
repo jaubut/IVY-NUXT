@@ -1,5 +1,5 @@
 <template>
-  <div class="container-block" :style="'background-image: url(/' + imgsrc + ')'">
+  <div class="container-block" :style="'background-image: url(/' + imgsrc + '?nf_resize=fit)'">
     <n-link :style="'color:' + textcolor +';'" class="infos-center-v-two" :to="'/' + link + '/'">
       <h1>{{ title }}</h1>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
