@@ -1,10 +1,10 @@
 <template>
   <div class="container-photos">
-    <div class="photos photo-un" :style="'background-image: url(' + imgsrcfinalun + ')'" />
-    <div class="photos photo-deux" :style="'background-image: url(' + imgsrcfinaldeux + ')'" />
-    <div class="photos photo-trois" :style="'background-image: url(' + imgsrcfinaltrois + ')'" />
-    <div class="photos photo-quatre" :style="'background-image: url(' + imgsrcfinalquatre + ')'" />
-    <div class="photos photo-cinq" :style="'background-image: url(' + imgsrcfinalcinq + ')'" />
+    <div class="photos photo-un" :style="'background-image: url(/' + imgsrcun + ')'" />
+    <div class="photos photo-deux" :style="'background-image: url(/' + imgsrcdeux + ')'" />
+    <div class="photos photo-trois" :style="'background-image: url(/' + imgsrctrois + ')'" />
+    <div class="photos photo-quatre" :style="'background-image: url(/' + imgsrcquatre + ')'" />
+    <div class="photos photo-cinq" :style="'background-image: url(/' + imgsrccinq + ')'" />
   </div>
 </template>
 
@@ -30,63 +30,6 @@ export default {
     imgsrccinq: {
       type: String,
       default: null
-    }
-  },
-  computed: {
-    imgsrcfinalun () {
-      // Return nothing for the default empty string
-      if (!this.imgsrcun) {
-        return
-      }
-
-      const fileName = this.imgsrcun
-
-      // Request the image as a webpack module by using `require`
-      return require(`../assets/${fileName}`)
-    },
-    imgsrcfinaldeux () {
-      // Return nothing for the default empty string
-      if (!this.imgsrcdeux) {
-        return
-      }
-
-      const fileName = this.imgsrcdeux
-
-      // Request the image as a webpack module by using `require`
-      return require(`../assets/${fileName}`)
-    },
-    imgsrcfinaltrois () {
-      // Return nothing for the default empty string
-      if (!this.imgsrctrois) {
-        return
-      }
-
-      const fileName = this.imgsrctrois
-
-      // Request the image as a webpack module by using `require`
-      return require(`../assets/${fileName}`)
-    },
-    imgsrcfinalquatre () {
-      // Return nothing for the default empty string
-      if (!this.imgsrcquatre) {
-        return
-      }
-
-      const fileName = this.imgsrcquatre
-
-      // Request the image as a webpack module by using `require`
-      return require(`../assets/${fileName}`)
-    },
-    imgsrcfinalcinq () {
-      // Return nothing for the default empty string
-      if (!this.imgsrccinq) {
-        return
-      }
-
-      const fileName = this.imgsrccinq
-
-      // Request the image as a webpack module by using `require`
-      return require(`../assets/${fileName}`)
     }
   }
 }
