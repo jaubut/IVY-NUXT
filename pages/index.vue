@@ -10,7 +10,7 @@
         textcolor="#FCDA1E"
         imgsrc="img/studio/photo-cours-dan.jpg"
       />
-      <div class="container-row">
+      <div class="container-grid-row">
         <fullWidth
           link="location"
           class="demi-width-v-two"

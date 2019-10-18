@@ -1,15 +1,13 @@
 <template>
   <Layout>
     <div>
-      <fullWidth
-        class="full-width-v-two"
-        title="Ivy Yoga"
-        description="Viens yogater à l'espace Ivy !"
-        textcolor="white"
-        link=""
-        imgsrc="img/yoga/flow-4.jpg"
-      />
-      <div class="container-row">
+      <div class="full-width-v-two photo-yoga">
+        <h2 class="section-title">
+          Viens yogater à l'espace Ivy !
+        </h2>
+        <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
+      </div>
+      <div class="container-grid-row">
         <fullWidth
           class="demi-width-v-two"
           title=""
@@ -182,6 +180,13 @@ export default {
 }
 .taxes {
   font-size: 2rem;
+}
+.photo-yoga {
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(~assets/img/yoga/flow-4.jpg);
 }
 @media screen and (max-width: 600px) {
   .taxes {

@@ -95,7 +95,6 @@ a:hover {
     flex-flow: column;
     justify-content: center;
     min-height: 40vh;
-    width: 45%;
     padding: 0.75rem;
     margin: 0 0rem 0.75rem 0rem;
     background-repeat: no-repeat;
@@ -150,6 +149,14 @@ a:hover {
     align-items: center;
     margin: 0 2rem 0rem 2rem;
 }
+.container-grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem 0rem 2rem;
+}
 .section-title {
     margin: 0 0 1rem 0;
     text-align: center;
@@ -176,11 +183,15 @@ a:hover {
         margin: 1rem;
     }
     .demi-width-v-two {
-        width: 100%;
+        width: auto;
+        margin: 0;
     }
     .container-prix {
         flex-flow: column;
         align-items: center;
+    }
+    .container-grid-row {
+        grid-template-columns: 1fr;
     }
     h1 {
         font-size: x-large;

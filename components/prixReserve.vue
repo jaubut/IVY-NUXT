@@ -124,7 +124,7 @@ h4 {
 @media screen and (max-width: 600px) {
     .prices, .prices-v-two, .prices-v-three {
       width: auto;
-      justify-content: flex-start;
+      min-height: auto;
     }
     h2 {
       font-size: large;

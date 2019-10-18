@@ -16,7 +16,7 @@
         imgsrcquatre="img/studio/salle-essayage.jpg"
         imgsrccinq="img/studio/eau.jpg"
       />
-      <div class="container-row">
+      <div class="container-grid-row">
         <fullWidth
           class="demi-width-v-two"
           imgsrc="img/studio/galerie.jpg"
