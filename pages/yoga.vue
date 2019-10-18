@@ -186,7 +186,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/img/yoga/flow-4.jpg);
+  background-image: url(~assets/img/yoga/flow-4.jpg);
 }
 @media screen and (max-width: 600px) {
   .taxes {

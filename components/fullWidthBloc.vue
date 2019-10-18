@@ -1,5 +1,5 @@
 <template>
-  <div class="container-block" :style="'background-image: url(/' + imgsrc + '?nf_resize=fit)'">
+  <div class="container-block" :style="'background-image: url(' + imgsrcfinal + ')'">
     <n-link :style="'color:' + textcolor +';'" class="infos-center-v-two" :to="'/' + link + '/'">
       <h1>{{ title }}</h1>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
@@ -35,9 +35,37 @@ export default {
       type: String,
       default: null
     },
+    logosrc: {
+      type: String,
+      default: null
+    },
     logocolor: {
       type: String,
       default: 'white'
+    }
+  },
+  computed: {
+    imgsrcfinal () {
+      // Return nothing for the default empty string
+      if (!this.imgsrc) {
+        return
+      }
+
+      const fileName = this.imgsrc
+
+      // Request the image as a webpack module by using `require`
+      return require(`../assets/${fileName}`)
+    },
+    logosrcfinal () {
+      // Return nothing for the default empty string
+      if (!this.logosrc) {
+        return
+      }
+
+      const fileName = this.logosrc
+
+      // Request the image as a webpack module by using `require`
+      return require(`../assets/${fileName}`)
     }
   }
 }
