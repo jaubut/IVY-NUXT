@@ -17,7 +17,7 @@
           title="Location"
           description="Loue l'espace pour tes projets!"
           textcolor="white"
-          imgsrc="img/studio/photo-loue-espace.jpg"
+          imgsrc="img/studio/photo-loue-espace-lfs.jpg"
           logosrc=""
         />
         <fullWidth
@@ -27,7 +27,7 @@
           description="Découvre, explore, partage!"
           sousdescription=""
           textcolor="white"
-          imgsrc="img/studio/eka.jpg"
+          imgsrc="img/studio/eka-lfs.jpg"
         />
       </div>
     </div>
