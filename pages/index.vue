@@ -8,7 +8,7 @@
         description="Toutes les classes sont ouvertes."
         sousdescription="Les portes ouvrent 15 minutes avant le cours."
         textcolor="white"
-        imgsrc="img/studio/photo-cours-dan.jpg"
+        imgsrc="img/studio/photo-cours-dan-lfs.jpg"
       />
       <div class="container-grid-row">
         <fullWidth
