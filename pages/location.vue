@@ -7,19 +7,19 @@
         description=""
         textcolor="white"
         link=""
-        imgsrc="img/studio/photo-loue-espace.jpg"
+        imgsrc="img/studio/photo-loue-espace-lfs.jpg"
       />
       <photos
-        imgsrcun="img/studio/bureau.jpg"
-        imgsrcdeux="img/studio/vestiere.jpg"
-        imgsrctrois="img/studio/eka.jpg"
-        imgsrcquatre="img/studio/salle-essayage.jpg"
-        imgsrccinq="img/studio/eau.jpg"
+        imgsrcun="img/studio/bureau-lfs.jpg"
+        imgsrcdeux="img/studio/vestiere-lfs.jpg"
+        imgsrctrois="img/studio/eka-lfs.jpg"
+        imgsrcquatre="img/studio/salle-essayage-lfs.jpg"
+        imgsrccinq="img/studio/eau-lfs.jpg"
       />
       <div class="container-grid-row">
         <fullWidth
           class="demi-width-v-two"
-          imgsrc="img/studio/galerie.jpg"
+          imgsrc="img/studio/galerie-lfs.jpg"
         />
         <textBlock
           class="demi-width-v-two"
