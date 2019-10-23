@@ -16,7 +16,7 @@
       </h2>
       <carousel class="" :per-page="1" :mouse-drag="true">
         <slide class="slideshow">
-          <img class="img-galerie" src="~assets/img/galerie/galerie-1.jpg" alt="">
+          <img class="img-galerie" src="~static/img/galerie/galerie-1-lfs.jpg" alt="">
         </slide>
       </carousel>
     </div>
@@ -85,7 +85,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(~assets/img/studio/eka.jpg);
+  background-image: url(~static/img/studio/eka-lfs.jpg);
 }
 .margin-event {
   margin-top: 5rem;
