@@ -1,10 +1,10 @@
 <template>
   <div class="container-photos">
-    <div class="photos photo-un" :style="'background-image: url(' + imgsrcfinalun + ')'" />
-    <div class="photos photo-deux" :style="'background-image: url(' + imgsrcfinaldeux + ')'" />
-    <div class="photos photo-trois" :style="'background-image: url(' + imgsrcfinaltrois + ')'" />
-    <div class="photos photo-quatre" :style="'background-image: url(' + imgsrcfinalquatre + ')'" />
-    <div class="photos photo-cinq" :style="'background-image: url(' + imgsrcfinalcinq + ')'" />
+    <div class="photos photo-un" :style="'background-image: url(/' + imgsrcfinalun + ')'" />
+    <div class="photos photo-deux" :style="'background-image: url(/' + imgsrcfinaldeux + ')'" />
+    <div class="photos photo-trois" :style="'background-image: url(/' + imgsrcfinaltrois + ')'" />
+    <div class="photos photo-quatre" :style="'background-image: url(/' + imgsrcfinalquatre + ')'" />
+    <div class="photos photo-cinq" :style="'background-image: url(/' + imgsrcfinalcinq + ')'" />
   </div>
 </template>
 
