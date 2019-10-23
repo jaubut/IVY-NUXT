@@ -16,7 +16,7 @@
           description=""
           textcolor="white"
           link=""
-          imgsrc="img/yoga/flow-3.jpg"
+          imgsrc="img/yoga/flow-3-lfs.jpg"
         />
         <div class="demi-width-v-two">
           <div class="infos-center-v-two">
