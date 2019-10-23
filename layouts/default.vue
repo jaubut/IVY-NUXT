@@ -58,6 +58,12 @@ a {
 a:hover {
     color: #FCDA1E;
 }
+.white {
+    color: white;
+}
+.yellow {
+    color: #FCDA1E;
+}
 .full-width {
     display: grid;
     grid-template: 50% 50% / 50% 50%;
@@ -69,13 +75,12 @@ a:hover {
 }
 .full-width-v-two {
     position: relative;
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template: 100% / 100%;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 45vh;
     max-height: 45vh;
-    padding: 0.75rem;
     margin: 0 2rem 0.75rem 2rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,11 +96,10 @@ a:hover {
     margin: 0 2rem 4rem 2rem;
 }
 .demi-width-v-two {
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template: 100% / 100%;
     justify-content: center;
-    min-height: 40vh;
-    padding: 0.75rem;
+    min-height: 45vh;
     margin: 0 0rem 0.75rem 0rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -110,6 +114,15 @@ a:hover {
     height: auto;
     overflow: hidden;
     padding: 0 2rem 4rem 2rem;
+}
+.infos-center-v-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  margin: 2rem;
 }
 .container-prix {
     display: flex;
@@ -158,8 +171,18 @@ a:hover {
     margin: 0 2rem 0rem 2rem;
 }
 .section-title {
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 0 1rem 0;
     text-align: center;
+}
+.filtre {
+  grid-area: 1/1/2/2;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
 }
 .image {
     width: 80vw;

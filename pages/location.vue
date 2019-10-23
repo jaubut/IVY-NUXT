@@ -43,7 +43,7 @@
         />
       </div>
       <h2 class="section-title">
-        Liste de prix <span class="taxes">+Tx</span>
+        Liste de prix </br><span class="taxes">  Tx in</span>
       </h2>
       <div class="container-prix">
         <prices
@@ -91,7 +91,7 @@ export default {
   data () {
     return {
       materiels: ['40 Blocs de liège', '25 Traversins Moyen en coton', '25 Sangles en coton', '20 Yoga Tune Up Therapy Balls', '20 Chaises pliantes', '10 Tapis BMAT', '25 Couvertures cotton indien'],
-      equipements: ['Coin lounge minimaliste & ethnique', 'Coin réception épuré & ergonomique', 'Fontaine Ovopur', 'Access à internet', 'Vidéoprojecteur', 'Speaker Bose Revolve (son à 360 degrés)'],
+      equipements: ['Coin lounge minimaliste & ethnique', 'Coin réception épuré & ergonomique', 'Fontaine à eau Ovopur', 'Access à internet', 'Vidéoprojecteur', 'Speaker Bose Revolve (son à 360 degrés)'],
       title: 'Espace IVY - location',
       description: 'Créateur de Valeur et de Mouvement l’Espace IVY est une place unique en son genre! Il s’agit à la fois d’un studio de Yoga et d’une galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec. L’ambiance y est chaleureuse et décontractée ou l’on se plaît à faire du yoga décomplexé sur des mélodies accrocheuses et des rythmes entraînants. La plupart de nos classes sont ouvertes à tous les niveaux. Le studio de Yoga offre une tarification très accessible et marginale puisque aucun abonnement n’est offert. Zéro obligation, pas de prélèvement automatique, tu payes quand tu viens! Que ce soit pour bouger, lâcher prise, croire en toi, ralentir, te sentir plus ancré, plus souple, plus fort ou moins stressé, l’Espace IVY à Granby est une place où se retrouver afin de partager une pratique de Yoga entre amis, collègues ou en famille. Un lieu de rencontre et d’échange qui fait la promotion des Arts par des expositions et des événements. Bonne humeur à volonté et imperfections bienvenues!'
 
@@ -123,6 +123,7 @@ export default {
 }
 .taxes {
   font-size: 2rem;
+  color: #FCDA1E;
 }
 @media screen and (max-width: 600px) {
   .taxes {

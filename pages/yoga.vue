@@ -2,10 +2,12 @@
   <Layout>
     <div>
       <div class="full-width-v-two photo-yoga">
-        <h2 class="section-title">
-          Viens yogater à l'espace Ivy !
-        </h2>
-        <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
+        <div class="section-title">
+          <h2 class="">
+            Viens yogater à l'espace Ivy !
+          </h2>
+          <a class="reserve" target="_blank" href="https://mindbody.io/fitness/studios/ivy-espace-yoga-arts-communaute">Réserve ta classe</a>
+        </div>
       </div>
       <div class="container-grid-row">
         <fullWidth
@@ -16,12 +18,12 @@
           link=""
           imgsrc="img/yoga/flow-3.jpg"
         />
-        <textBlock
-          class="demi-width-v-two"
-          title="Notre vision"
-          description="Que ce soit pour bouger, lâcher prise, croire en toi, ralentir, te sentir plus ancré, plus souple, plus fort ou moins stressé, l’Espace IVY à Granby est une place où se retrouver afin de partager une pratique de Yoga entre amis, collègues ou en famille. Un lieu de rencontre et d’échange qui fait la promotion des Arts par des expositions et des événements."
-          textcolor="black"
-        />
+        <div class="demi-width-v-two">
+          <div class="infos-center-v-two">
+            <h2>Notre vision</h2>
+            <h3>Créateur de Valeur et de Mouvement Ivy Espace Yoga - Arts & Communauté est à la fois un studio de Yoga, un espace et une galerie d’Art situé dans un grand loft industriel lumineux niché dans l’immeuble Impérial à Granby classé patrimoine culturel du Québec. <br></br>L’ambiance y est chaleureuse et décontractée ou l’on se plaît à faire du yoga décomplexé sur des mélodies accrocheuses et des rythmes entraînants, la plupart de nos classes sont ouvertes à tous les niveaux. <br></br>Notre tarification est très accessible et marginale puisque aucun abonnement n’est offert. Zéro obligation, pas de prélèvement automatique, tu payes quand tu viens! <br></br> L’Espace Ivy est une place où « yogater » en solo ou partager une pratique entre amis, collègues ou en famille. Un lieu de rencontre et d’échange qui fait la promotion des Arts par des expositions et des événements. <br></br>Bonne humeur à volonté et imperfections bienvenues!</h3>
+          </div>
+        </div>
       </div>
       <h2 class="section-title">
         Description des classes
@@ -61,7 +63,7 @@
         />
       </div>
       <h2 class="section-title">
-        Liste de prix<span class="taxes">+Tx</span>
+        Liste de prix </br><span class="taxes">  Tx in</span>
       </h2>
       <div class="container-prix">
         <prices
@@ -100,17 +102,17 @@
         />
         <prices
           class="prices"
-          title="20 Classes"
+          title="20 Classes - 20%"
           price="240 $"
           backcolor="#FCDA1E"
-          description="- 20% ( = 12 $/Cours) - Valide 12 mois"
+          description="= 12 $/Cours (Valide 12 mois)"
         />
         <prices
           class="prices"
-          title="10 Classes"
+          title="10 Classes - 10%"
           price="135 $"
           backcolor="white"
-          description="- 10% ( = 13.5 $/Cours) - Valide 6 mois"
+          description="= 13.5 $/Cours (Valide 6 mois)"
         />
       </div>
       <h2 class="section-title">
@@ -132,14 +134,12 @@
 
 <script>
 import fullWidth from '~/components/fullWidthBloc.vue'
-import textBlock from '~/components/text-block.vue'
 import descriptifs from '~/components/descriptifs.vue'
 import prices from '~/components/prix.vue'
 
 export default {
   components: {
     fullWidth,
-    textBlock,
     descriptifs,
     prices
   },
@@ -167,6 +167,7 @@ export default {
 
 <style scoped>
 .reserve {
+  grid-template: 1/1/2/2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,6 +181,7 @@ export default {
 }
 .taxes {
   font-size: 2rem;
+  color: #FCDA1E;
 }
 .photo-yoga {
   color: white;

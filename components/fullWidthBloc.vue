@@ -1,5 +1,6 @@
 <template>
   <div class="container-block" :style="'background-image: url(' + imgsrcfinal + ')'">
+    <div class="filtre" />
     <n-link :style="'color:' + textcolor +';'" class="infos-center-v-two" :to="'/' + link + '/'">
       <h1>{{ title }}</h1>
       <h3>{{ description }} <br> {{ sousdescription }}</h3>
@@ -84,6 +85,11 @@ export default {
   height: auto;
   transition: all .2s ease-in-out;
 }
+.filtre {
+  grid-area: 1/1/2/2;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
 .photo-logo {
   grid-area: 1/1/2/3;
   display: flex;
@@ -96,7 +102,7 @@ export default {
   color: white;
 }
 .infos-center {
-  grid-area: 1/1/3/3;
+  grid-area: 1/1/2/2;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -105,7 +111,7 @@ export default {
   transition: all .2s ease-in-out;
 }
 .infos-center-v-two {
-  position: relative;
+  grid-area: 1/1/2/2;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -115,10 +121,6 @@ export default {
 }
 .infos-center h3 {
   padding: 0 2.5rem;
-}
-.img-filter {
-  grid-area: 1/1/3/3;
-  background: rgba(0,0,0,0.2);
 }
 .reserve {
   display: flex;

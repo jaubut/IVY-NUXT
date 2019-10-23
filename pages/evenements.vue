@@ -2,10 +2,13 @@
   <Layout>
     <div>
       <div class="full-width-v-two photo-event">
-        <h2 class="section-title">
-          Consulte tous les évènements<br>
-        </h2>
-        <a class="reserve" target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Mise à jour sur facebook</a>
+        <div class="filtre" />
+        <div class="section-title white">
+          <h2 class="">
+            Consulte tous les évènements<br>
+          </h2>
+          <a class="reserve" target="_blank" href="https://www.facebook.com/pg/espaceivy/events/?ref=page_internal">Mise à jour sur facebook</a>
+        </div>
       </div>
       <h2 class="section-title margin-event">
         Exposition en cours<br>

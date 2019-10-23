@@ -7,7 +7,7 @@
         title="Yoga"
         description="Toutes les classes sont ouvertes."
         sousdescription="Les portes ouvrent 15 minutes avant le cours."
-        textcolor="#FCDA1E"
+        textcolor="white"
         imgsrc="img/studio/photo-cours-dan.jpg"
       />
       <div class="container-grid-row">
@@ -16,7 +16,7 @@
           class="demi-width-v-two"
           title="Location"
           description="Loue l'espace pour tes projets!"
-          textcolor="black"
+          textcolor="white"
           imgsrc="img/studio/photo-loue-espace.jpg"
           logosrc=""
         />
@@ -26,7 +26,7 @@
           title="Événements & Art"
           description="Découvre, explore, partage!"
           sousdescription=""
-          textcolor="black"
+          textcolor="white"
           imgsrc="img/studio/eka.jpg"
         />
       </div>
